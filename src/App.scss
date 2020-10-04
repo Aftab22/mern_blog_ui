@@ -1,0 +1,145 @@
+body {
+  font-family: "Courier Prime", monospace;
+  font-size: 18px;
+}
+
+button {
+  padding: 16px;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+h3,
+h4 {
+  margin-bottom: 0;
+}
+
+nav {
+  border-bottom: 4px solid black;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 16px 32px;
+}
+
+nav a:hover {
+  background: black;
+  color: white;
+}
+
+#page-body {
+  max-width: 700px;
+  margin: auto;
+  padding: 64px 32px;
+}
+
+.article-list-item {
+  text-decoration: none;
+  color: black;
+  padding: 16px 0 0 0;
+}
+
+.article-list-item p {
+  padding-bottom: 32px;
+  border-bottom: 2px solid black;
+}
+
+#add-comment-form {
+  border-bottom: 2px solid;
+  padding: 16px;
+  padding-bottom: 42px;
+}
+
+#add-comment-form h3 {
+  margin-bottom: 16px;
+}
+
+#add-comment-form input,
+textarea {
+  display: block;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 18px;
+  border: 2px solid black;
+  margin-bottom: 16px;
+}
+
+#add-comment-form button {
+  width: 320px;
+}
+
+#upvotes-section button,
+p {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+.comment {
+  border-bottom: 2px solid black;
+  padding: 16px;
+}
+
+input,
+textarea,
+#add-comment-form button {
+  min-width: 90%;
+  max-width: 90%;
+}
+
+#other-articles {
+  padding: 42px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block; /* remove extra space below image */
+}
+
+.blue-scheme {
+  color: #4285f4;
+}
+.green-scheme {
+  color: #0f9d58;
+}
+.purple-scheme {
+  color: #8a2be2;
+}
+.yellow-scheme {
+  color: #f4b400;
+}
+.red-scheme {
+  color: #db4437;
+}
+.button-blue-scheme {
+  background-color: #4285f4;
+}
+.button-green-scheme {
+  background-color: #0f9d58;
+}
+.button-purple-scheme {
+  background-color: #8a2be2;
+}
